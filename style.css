@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+#navbar::before {
+    content: "";
+    z-index: -1;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+
+    
+}
+.logo{
+    margin: 11px 15px;
+}
+.logo img{
+    height: 50px;
+    border-radius: 50px;
+}
+#navbar ul {
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 15px;
+    
+}
+#navbar ul li a{
+    display: block;
+   text-decoration: none; 
+   padding: 10px;
+   color: rgb(255, 250, 250);
+   
+}
+#navbar ul li a:hover{
+   color: black;
+   background-color: white;
+   border-radius: 10px;
+   
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 200px;
+   height: 620px;
+   
+
+}
+.primery{
+    text-align: center;
+    margin: 30px;
+    font-size: 2.9rem;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url(/bgmore.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 86%;
+    width: 100%;
+    opacity: 0.8;
+
+}
+/* section h1{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    text-align: center;} */
+
+
+section p{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-align: center ;
+}
+.btn{
+    color: burlywood;
+    background-color: blue;
+    padding: 5px 20px;
+    font-size: 1rem;
+    margin: 20px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box{
+    display:flex;
+
+}
+.box1{
+    margin: 7px;
+    border: 2px solid brown;
+    padding: 15px;
+    background-color: rgb(213, 234, 234);
+    border-radius: 15px;
+    
+}
+.box1 img{
+    height: 100px;
+    margin: auto;
+   display: block;
+}
+.secondary{
+    text-align: center;
+}
+.lg{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    
+}
+.lg1 img{
+    height: 112px;
+    padding: 30px;
+
+}
+.contect-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
